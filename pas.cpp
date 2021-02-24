@@ -70,7 +70,7 @@ void aplikasiKalkulator(){
 void gameGBK(){
 	int angka_1,angka_2,hasil;
 	int p,m,g,c;
-	bool running = false;
+	bool running = true;
 	
 	while(running){
 		system("cls");
@@ -110,6 +110,7 @@ void gameGBK(){
 		}else{
 			cout<<endl;
 			cout<<"Terima kasih sudah bermain !!!";
+			running = false;
 		}
 	}
 	return 0;
@@ -117,7 +118,7 @@ void gameGBK(){
 
 int main()
 {	
-	bool runing = true;
+	bool running = true;
 	int input;
 	
 	while(running){
